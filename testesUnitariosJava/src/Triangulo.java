@@ -2,7 +2,7 @@ public class Triangulo {
     
     public static String classificarTriangulo(int... lados) {
         if (lados.length != 3) {
-            return "Numero incorreto de lados";
+            return "Número incorreto de lados";
         }
         
         int lado1 = lados[0];
@@ -10,7 +10,7 @@ public class Triangulo {
         int lado3 = lados[2];
         
         if (!TrianguloValido(lado1, lado2, lado3)) {
-            return "Não é um triangulo valido";
+            return "Não é um triângulo válido";
         }
         
         if (lado1 == lado2 && lado2 == lado3) {
